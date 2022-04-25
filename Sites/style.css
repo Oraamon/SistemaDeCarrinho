@@ -1,0 +1,90 @@
+#produtos{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 2%;
+    text-align: center;
+    display: flex;;
+    
+}
+#carrinho{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 2%;
+    display: block;
+}
+.produto-single{
+    width: 33.3%;
+    padding: 15px;
+    border: 5px solid rgb(255, 127, 127);
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.produto-single img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    
+    border-radius: 20px;
+}
+
+.produto-single:hover{
+    
+    transition: 1s;
+    border-color:rgb(255, 159, 252);
+   
+}
+.produto-single a{
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(255, 127, 127);
+}
+.produto-single:hover a{
+    transition: 1s;
+    color:rgb(255, 159, 252);
+}
+.produto-single:active {
+    
+    transition: 0.2s;
+    border-color:rgb(0, 238, 91);
+    
+   
+}
+.produto-single:active a{
+    
+    transition: 0.2s;
+    color:rgb(0, 238, 91);
+   
+}
+.produto-single p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px
+}
+
+h2{
+    font-family: 'Ms Madi', cursive;
+    background-color: rgb(255, 127, 127);
+    color: aliceblue;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.carrinho{
+    margin: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px
+}
+.carrinho input {
+    background-color: rgb(255, 73, 73);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(245, 50, 50); /* Green */
+    border-radius: 10px;
+  }
